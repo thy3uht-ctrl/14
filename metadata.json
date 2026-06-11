@@ -1,0 +1,8 @@
+{
+  "name": "極簡設計個人作品集",
+  "description": "一個風格優雅、極簡設計的個人作品集網站，首頁採用左文字、右圖片的對稱排版，並搭配精緻的動畫與流暢的使用者體驗。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
