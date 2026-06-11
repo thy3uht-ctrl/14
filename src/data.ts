@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   bio: "這裡將介紹我自大一接觸到FF系列作後創作的作品與深受影響的品味。",
   subBio: "自大一時不經意的接觸到Final Fantasy VII 後我就被此系列深深的吸引住，在這之後開始不斷的購入其他系列作。近期最常遊玩的遊戲是Final Fantasy XIV，這是一款MMO RPG 需要續月費的遊戲，雖然每個月都需要付款才能玩，但也因如此這遊戲完全沒有逼玩家繼續花錢的意願。在付完450的月費後就能獲得非常好的遊戲體驗(no pay to win)。\n\n總結來說除了舒適的遊戲體驗，這款遊戲讓我感覺最有魅力的是製作組用心製作的劇情內容，每個角色都擁有自己的理念與動機去驅使劇情運作，讓人輕易地就感受到角色的魅力。",
   skillsQuote: "「只要BOOS先死了，我就不用補血了對吧 ?」",
-  avatarUrl: "/src/assets/images/298.png",
+  avatarUrl: "/src/assets/images/portfolio_hero_1780913263271.png.png",
   social: {
     github: "https://github.com",
     linkedin: "https://linkedin.com",
