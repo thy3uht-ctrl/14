@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F7F7;
+  color: #1A1A1A;
+}
+
+/* Base custom classes to enhance UI look matching Sleek Interface template */
+.smooth-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #1A1A1A 0%, #666666 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Vertical Text support for layout accents */
+.vertical-text {
+  writing-mode: vertical-rl;
+  letter-spacing: 0.5em;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F7F7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CCCCCC;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+
+/* Sleek Interface design utility shadows and shapes */
+.sleek-card {
+  background-color: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 4px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.03);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sleek-card:hover {
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.06);
+  border-color: #D6D6D6;
+}
+
+.btn-sleek {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 650;
+  border-radius: 4px;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.btn-sleek:hover {
+  background-color: #404040;
+}
